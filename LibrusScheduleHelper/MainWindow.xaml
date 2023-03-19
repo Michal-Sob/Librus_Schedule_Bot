@@ -1,0 +1,61 @@
+﻿<Window x:Class="LibrusScheduleHelper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibrusScheduleHelper"
+        mc:Ignorable="d"
+        Height="600" Width="920"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True">
+    <!-- Title="MainWindow"  -->
+
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static local:MainWindow.MyCommand}" 
+                        Executed="CommandBinding_OnExecuted"/>
+    </Window.CommandBindings>
+    
+    <Border Background="#272537"
+            CornerRadius="20">
+        <Grid ShowGridLines="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <StackPanel Margin="10">
+                <ComboBox>
+                    <ComboBoxItem>ComboBox Item #1</ComboBoxItem>
+                    <ComboBoxItem IsSelected="True">ComboBox Item #2</ComboBoxItem>
+                    <ComboBoxItem>ComboBox Item #3</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+            
+            <Button Grid.Row="1" 
+                Click="StartBot_Click"
+                Content="Let's go"></Button>
+            
+            <TextBox Grid.Column="1"
+                     MouseDoubleClick="Control_OnMouseDoubleClick"></TextBox>
+            
+        </Grid>
+    </Border>
+    
+    <!-- <Grid> -->
+    <!--     <StackPanel> -->
+    <!--         <ComboBox> -->
+    <!--             <ComboBoxItem> Item 1</ComboBoxItem> -->
+    <!--         </ComboBox> -->
+    <!--     </StackPanel> -->
+    <!-- </Grid> -->
+</Window>
