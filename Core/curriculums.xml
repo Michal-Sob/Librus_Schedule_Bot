@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--ko = kształcenia ogólnego-->
+<CoreCurriculums>
+    <Curriculum id="20170214">
+        <Stage id="2">
+            <Subject id="jezykObcyNowozytny">
+                <Level id="II.1">
+
+                    <zero>1</zero>
+                    <one>14</one>
+                    <two>6</two>
+                    <three>7</three>
+                    <four>8</four>
+                    <five>8</five>
+                    <six>14</six>
+                    <seven>14</seven>
+                    <eight>3</eight>
+                    <nine>2</nine>
+                    <ten>1</ten>
+                    <eleven>1</eleven>
+                    <twelve>1</twelve>
+                    <thriteen>1</thriteen>
+                    <fourteen>1</fourteen>
+                </Level>
+            </Subject>
+        </Stage>
+    </Curriculum>
+    <Curriculum id="20180130"> 
+        <Stage id="4">
+            <Subject id="jezykObcyNowozytny">
+                <Level id="DJ">
+
+                    <zero>1</zero>
+                    <one>1</one>
+                    <two>11</two>
+                    <three>12</three>
+                    <four>12</four>
+                    <five>14</five>
+                    <six>15</six>
+                    <seven>15</seven>
+                    <eight>6</eight>
+                    <nine>2</nine>
+                    <ten>1</ten>
+                    <eleven>1</eleven>
+                    <twelve>1</twelve>
+                    <thriteen>1</thriteen>
+                    <fourteen>1</fourteen>
+                </Level>
+            </Subject>
+        </Stage>
+    </Curriculum>
+</CoreCurriculums>
