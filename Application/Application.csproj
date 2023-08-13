@@ -5,10 +5,15 @@
         <TargetFramework>net6.0-windows</TargetFramework>
         <Nullable>enable</Nullable>
         <UseWPF>true</UseWPF>
+        <RootNamespace>LibrusScheduleHelper</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="InputSimulator" Version="1.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core\Core.csproj" />
     </ItemGroup>
 
 </Project>
